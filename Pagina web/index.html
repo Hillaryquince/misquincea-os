@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XV Hillary - ¡Te esperamos!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <audio id="backgroundMusic" src="audio/musica.mp3" loop></audio>
+
+    <div class="main-wrapper">
+        <img src="img/floral_top_left.png" alt="Flor superior izquierda de fondo" class="parallax-element floral-top-left-page">
+        <img src="img/floral_bottom_right.png" alt="Flor inferior derecha de fondo" class="parallax-element floral-bottom-right-page">
+        <img src="img/butterfly_scattered_top.png" alt="Mariposa superior dispersa" class="parallax-element butterfly-scattered-top">
+        <img src="img/butterfly_scattered_bottom.png" alt="Mariposa inferior dispersa" class="parallax-element butterfly-scattered-bottom">
+
+        <section id="main-photo" class="main-photo-section">
+            <h2 class="invite-phrase">Te invito a mis 15 años</h2>
+            <div class="main-photo-container">
+                <img src="img/quinceanera.png" alt="Foto principal de Hillary XV" class="quinceanera-main-photo">
+                <img src="img/floral_top_left.png" alt="Decoración floral" class="photo-decor-top-left">
+                <img src="img/floral_bottom_right.png" alt="Decoración floral" class="photo-decor-bottom-right">
+                <img src="img/butterfly_large_left.png" alt="Decoración mariposa" class="photo-decor-butterfly-left">
+                <img src="img/butterfly_small_right.png" alt="Decoración mariposa" class="photo-decor-butterfly-right">
+            </div>
+            <div class="music-button-container">
+                <p class="press-me-animate">Presióname</p>
+                <button id="musicButton" class="music-button">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+        </section>
+
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <img src="img/crown.png" alt="Corona de XV" class="hero-crown">
+                <h2 class="hero-subtitle">XV</h2>
+                <h1 class="hero-title">Hillary</h1>
+                <p class="hero-invitation-text">
+                    Hoy se cumple un sueño y comienza un nuevo capítulo lleno de ilusiones. Más que una fiesta, este es un momento que marcará mi vida para siempre. Con la bendición de Dios y de mis padres, Aidee Hernandez y Jose Cumbay, tengo el honor de invitarte a celebrar mis XV años
+                </p>
+                <a href="#invitation" class="btn-scroll">Ver invitación <i class="fas fa-arrow-down"></i></a>
+            </div>
+            <img src="img/butterfly_large_left.png" alt="Mariposa grande" class="parallax-element butterfly-large-left">
+            <img src="img/butterfly_small_right.png" alt="Mariposa pequeña" class="parallax-element butterfly-small-right">
+        </section>
+
+        <section id="invitation" class="invitation-section section-padding">
+            <div class="container text-center">
+                <h2 class="section-title">Nuestra Invitación</h2>
+                <p class="invitation-details-text">
+                    Es un honor para mí compartir contigo este día tan especial. Tu presencia es el mejor regalo.
+                </p>
+                <div class="date-time-location">
+                    <p class="date-info">
+                        <span class="date-month">AGOSTO</span><br>
+                        <span class="date-day">Viernes</span> <span class="date-number">29</span> <span class="time">8:00 p.m.</span>
+                    </p>
+                    <p class="location-info">
+                        Lugar:<br>
+                        Av. 22 de agosto cruce con calle Roma<br>
+                        #170a. Recepciones Amy
+                    </p>
+                </div>
+                <img src="img/border_divider.png" alt="Divisor" class="divider-image">
+            </div>
+        </section>
+
+        <section id="countdown-section" class="countdown-section section-padding">
+            <div class="container text-center">
+                <h2 class="section-title">¡Faltan pocos días!</h2>
+                <div id="countdown" class="countdown-timer">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <label>Días</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <label>Horas</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <label>Minutos</label>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <label>Segundos</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container text-center">
+                <h2 class="section-title">Galería de Fotos</h2>
+                <div class="gallery-grid">
+                    <img src="img/gallery1.png" alt="Foto Galería 1">
+                    <img src="img/gallery2.png" alt="Foto Galería 2">
+                    <img src="img/gallery3.png" alt="Foto Galería 3">
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="location-section section-padding">
+            <div class="container text-center">
+                <h2 class="section-title">¿Cómo Llegar?</h2>
+                <p class="location-details">Recepción: Av. 22 de agosto cruce con calle Roma #170a. Recepciones Amy</p>
+                <div class="map-container static-map">
+                    <img src="img/mapa.png" alt="Mapa de ubicación" class="map-image">
+                </div>
+                <a href="https://maps.app.goo.gl/PgkdmbWj6ejbyALD9" target="_blank" class="btn-map">Abrir en Google Maps <i class="fas fa-map-marker-alt"></i></a>
+            </div>
+        </section>
+
+        <section id="rsvp" class="rsvp-section section-padding">
+            <div class="container text-center">
+                <div class="dress-code-icon">
+                    <i class="fas fa-tshirt fa-3x"></i> </div>
+                <h2 class="section-title">Tipo de Vestimenta</h2>
+                <p class="rsvp-text">Se sugiere "vestimenta formal o de cóctel" para la ocasión. ¡Queremos que te sientas cómodo y elegante!</p>
+                <a href="https://wa.me/51941864216" target="_blank" class="btn-submit">Confirmar Asistencia al WhatsApp Privado <i class="fab fa-whatsapp"></i></a>
+            </div>
+        </section>
+
+        <section id="thanks" class="thanks-section section-padding">
+            <div class="container text-center">
+                <p class="we-wait">¡Te esperamos!</p>
+                <p class="designer-credit">Diseñado con <i class="fas fa-heart"></i> por George Cairampoma Hernandez, tu primo</p>
+            </div>
+        </section>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
