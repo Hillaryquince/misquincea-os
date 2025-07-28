@@ -842,7 +842,7 @@ body {
     .butterfly-scattered-top {
         width: 15vw;
         top: 10vh;
-        right: 2vw;
+        right: -5vw;
     }
     .butterfly-scattered-bottom {
         width: 12vw;
